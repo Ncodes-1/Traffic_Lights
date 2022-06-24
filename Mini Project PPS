@@ -1,0 +1,24 @@
+//TRAFFIC LIGHT
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char colour;
+    printf("The Traffic Light shows ");  //Enters the colour of the light.
+    scanf("%c",&colour);
+    switch(colour){  //Creating different cases for each light.
+        case 'r':
+        case 'R':
+            printf("STOP!");
+            break;
+        case 'y':
+        case 'Y':
+            printf("WAIT AND PREPARE YOURSELF");
+            break;
+        case 'g':
+        case 'G':
+        printf("OFF YOU GO");
+            break;
+        default:
+        printf("Try Again!");
+    return 0;
+}}
